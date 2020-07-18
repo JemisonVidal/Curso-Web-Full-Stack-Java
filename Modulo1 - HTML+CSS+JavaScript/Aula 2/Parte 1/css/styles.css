@@ -1,0 +1,153 @@
+* {
+  background-color: #24252A;
+  /* 
+  background-image: url("../assets/background/double-bubble-dark.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  /*
+  - Pessoal deixei comentado porque acho que fica mas legal com o color, porém como o exercicio pedia está ai.
+  - Adiciona a imagem como backgroud, 
+  - seta para nao se repetir
+  - seta para cobrir a pagina 
+  - seta para imagem nao se movimentar, ao usar o scrol 
+  =)
+  */
+  color: aliceblue;
+}
+
+body {
+  font-family: sans-serif;
+  color: #3b3b3b;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: #24252A;
+}
+
+footer img {
+  max-width: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-style: italic;
+  border-bottom: 1px solid #aaa;
+  color: #ddd;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(122, 122, 131, 0.5);
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #4B5267;
+  text-decoration: underline;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  background-color: #ddd;
+  padding-left: 5px;
+  margin: 2px 0px 0px -15px;
+  padding-left: 10px;
+  font-weight: normal;
+}
+
+img {
+  max-width: 120px;
+  margin-left: 3px;
+  border-radius: 25px;
+}
+
+.photosHobbies img {
+  max-width: 360px;
+  width: 360px;
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+li p {
+  margin: 0px 15px;
+}
+
+ul li {
+  font-size: 14px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.conteudo {
+  display: table;
+}
+
+.photo {
+  display: table-cell;
+  margin-top: 0px;
+  float: left;
+  border-radius: 30px;
+  padding: 3px;
+  display: flex;
+}
+
+.texto {
+  display: table-cell;
+  float: left;
+  width: 60%;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.list-rede {
+  display: table-cell;
+  width: 200px;
+}
+
+.icon {
+  max-width: 30px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px;
+  height: 45px;
+}
+
+#redesocial li {
+  padding: 0px 25px;
+  display: inline-block;
+}
+
+.audio {
+  padding-top: 20px;
+}
+
+.destaque {
+  margin-left: 20px;
+  text-align: justify;
+  background-color: yellow;
+  color: black;
+  font-size: 22px;
+}

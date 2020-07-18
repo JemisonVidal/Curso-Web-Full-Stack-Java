@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <h1>Currículo - Jemison Vidal</h1>
+    <nav>
+      <a href="./index.html" title="Clique aqui para voltar"
+        ><img class="icon" src="assets/icons/back.png"
+      /></a>
+    </nav>
+    <section class="secao" id="hobbies">
+      <div>
+        <h2>Hobbies</h2>
+        <ul type="none" class="photosHobbies">
+          <li>
+            <img
+              src="./assets/hobbies/academia.jpg"
+              alt="Aparelhos de academia, dentro da academia"
+              title="Aparelhos de academia, dentro da academia"
+            />
+            <p>Academia</p>
+          </li>
+          <li>
+            <img
+              src="./assets/hobbies/valorant.jpg"
+              alt="Poster do valorantes, jogo online de fps"
+              title="Poster do valorantes, jogo online de fps"
+            />
+            <p>Games Online</p>
+          </li>
+          <li>
+            <img
+              src="./assets/hobbies/ronaldinho.jpg"
+              alt="Ronaldinho gaucho, sorrindo :)"
+              title="Ronaldinho gaucho, sorrindo :)"
+            />
+            <p>Futebol, o Bruxo :)</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="secao" id="movie">
+      <div>
+        <h2>Vídeo em HTML5</h2>
+        <video
+          width="640px"
+          controls
+          poster="./assets/photo/poster_silviojpg.jpg"
+        >
+          <source src="movies/silvio.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+    <section class="secao">
+      <div >
+        <h2>Audio em HTML5</h2>
+        <audio
+          class=audio
+          id="audiohtml"
+          width="480px"
+          controls        
+          volume= 1 
+          loop 
+        >
+          <source src="audio/ta pegando fogo bixo.mp3" type="audio/mp3" />
+        </video>
+      </div>
+    </section>
+
+    <script>
+      var audio = document.getElementById("audiohtml");
+      audio.volume = 0.04;
+    </script>
+  </body>
+</html>
