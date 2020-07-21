@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Contato - Aula 3</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title">Formulário de Contato</h1>
+    </header>
+    <main>
+      <form action="#" method="GET" class="form">
+        <div class="row">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" value="" placeholder="Fulano" required>
+        </div>
+        <div class="row">
+          <label for="lastName">Last name:</label>
+          <input type="text" id="lastName" name="lastName" value="" placeholder="de Tal" required>
+        </div>
+
+        <div class="row">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" value="" placeholder="FulanoTal@gmail.com" required>
+        </div>
+
+        <div class="row">
+          <label for="suject">Suject:</label>
+          <select id="suject" name="Suject">
+            <option value="Suject1">Suject1</option>
+            <option value="Suject2">Suject2</option>
+            <option value="Suject3">Suject3</option>
+          </select>
+        </div>
+
+        <div class="label-radio-check">
+          <div class="row">
+            <label for="gender">Gender:</label>
+            <input type="radio" id="genderMale" name="gender">
+            <label for="genderMale">Male</label>
+            <input type="radio" id="genderFeminine" name="gender">
+            <label for="genderFeminine">Feminine</label>
+            <input type="radio" id="genderUninformed" name="gender">
+            <label for="genderUninformed">not inform</label>
+          </div>
+
+          <div class="row">
+            <h3 class="title">Hobbies</h3>
+            <input type="checkbox" id="music" name="hobbies">
+            <label for="musica">Music</label>
+            <input type="checkbox" id="dance" name="hobbies">
+            <label for="danca">Dance</label>
+            <input type="checkbox" id="song" name="hobbies">
+            <label for="canto">Song</label>
+            <input type="checkbox" id="Painting" name="hobbies">
+            <label for="pintura">painting</label>
+            <input type="checkbox" id="Movie" name="hobbies">
+            <label for="filme">Movie</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <textarea name="comment" maxlength="100" rows="5" cols="50"></textarea>
+        </div>
+
+        <div class="row">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
