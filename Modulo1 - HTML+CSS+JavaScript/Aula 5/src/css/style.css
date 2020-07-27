@@ -1,0 +1,15 @@
+body {
+  color: white;
+  background-color: #1b2838;
+  font-family: "Motiva Sans", Sans-serif;
+}
+
+.scrollspy {
+  position: relative;
+  overflow: auto;
+  height: 400px;
+}
+
+.jumbotron {
+  background-color: #343a40;
+}

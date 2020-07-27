@@ -1,0 +1,74 @@
+header {
+  color: #fff;
+  background-color: #5A2D82;
+}
+
+.banner-header {
+  background-color: #FF691E;
+  color: #fff;
+  line-height: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.text-padrao {
+  color: #5A2D82;
+}
+
+.img-card {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.card-title {
+  color: black;
+}
+
+.precoDe {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 10px;
+}
+
+.precoPor {
+  color: black;
+  font-size: 20px;
+}
+
+.precoFrete {
+  color: #04d483;
+  font-size: 20px;
+}
+
+.text-rodape {
+  font-size: 13px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 50px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 30px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: black;
+}
+
+.backgroud-b {
+  background-color: black;
+  color: #fff;
+  height: 300px;
+}
+
+.backgroud-v {
+  background-color: #145946;
+  color: #fff;
+  height: 300px;
+}

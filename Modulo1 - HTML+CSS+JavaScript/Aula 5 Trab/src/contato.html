@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("./header.html");
+      $("#footer").load("./footer.html");
+    });
+  </script>
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <main role="main">
+    <div class="container my-3 border rounded p-5 shadow bg-white">
+      <form>
+        <div class="form-row">
+          <h1>Preencha as informações de contato</h1>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="input-name">Nome</label>
+            <input type="text" class="form-control" id="input-name" placeholder="Jemison" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="input-sobrenome">Sobrenome</label>
+            <input type="text" class="form-control" id="input-sobrenome" placeholder="Vidal" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="input-email">Email</label>
+            <input type="email" class="form-control" id="input-email" placeholder="jemison.santoos@gmail.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="input-endereco">Endereço</label>
+          <input type="text" class="form-control" id="input-endereco" placeholder="Rua Urano">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="input-cidade">Cidade</label>
+            <input type="text" class="form-control" id="input-cidade">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="input-estado">Estado</label>
+            <select id="input-estado" class="form-control">
+              <option>AC</option>
+              <option>AL</option>
+              <option>AP</option>
+              <option>AM</option>
+              <option>BA</option>
+              <option>CE</option>
+              <option>ES</option>
+              <option>GO</option>
+              <option>MA</option>
+              <option>MT</option>
+              <option>MS</option>
+              <option>MG</option>
+              <option>PA</option>
+              <option>PB</option>
+              <option>PR</option>
+              <option>PE</option>
+              <option>PI</option>
+              <option>RJ</option>
+              <option>RN</option>
+              <option>RS</option>
+              <option>RO</option>
+              <option>RR</option>
+              <option>SC</option>
+              <option selected>SP</option>
+              <option>SE</option>
+              <option>TO</option>
+              <option>DF</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="input-cep">CEP</label>
+            <input type="text" class="form-control" id="input-cep">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="input-mesag">Menssagem</label>
+          <textarea class="form-control" id="input-mesage" required></textarea>
+        </div>
+        <div class="form-group">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+      <div class="row my-4 ">
+        <div class="col-dm-12 col-lg-4 mb-3">
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <h5 class="card-title">Jemison Vidal</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Lista 01-Módulo 1-Aula 5</h6>
+              <p class="card-text">Exercicio: Construir uma pagina</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Deve conter no mínimo 3 páginas</li>
+                <li class="list-group-item">Utiliza carrossel, modals e mais um componente</li>
+                <li class="list-group-item">Página contato que você deve colocar informações</li>
+                <li class="list-group-item">usar formulários para apenas pegar as informações do usuário</li>
+                <li class="list-group-item">Um página de mídia</li>
+                <li class="list-group-item">Obrigatório que usem Flexbox, Containers e Grid System</li>
+                <li class="list-group-item">Mobile First</li>
+                <li class="list-group-item">Precisa ser responsivo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-dm-12 col-lg-4 mb-3">
+          <div class="card  shadow-lg">
+            <div class="card-body">
+              <h5 class="card-title">Contato por email</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Jemison Vidal</h6>
+              <p class="card-text">jemison.santoos@gmail.com</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-dm-12 col-lg-4 mb-3">
+          <div class="card  shadow-lg">
+            <div class="card-body">
+              <h5 class="card-title">Curso</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Web full stack</h6>
+              <p class="card-text">Digital House</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Módulo 1</li>
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">Javascript</li>
+                <li class="list-group-item">BootStrap</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <div id="footer"></div>
+
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/popper.js/dist/umd/popper.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
