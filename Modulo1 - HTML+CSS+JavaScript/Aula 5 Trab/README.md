@@ -1,2 +1,14 @@
 Curso Web full stack java Coders
-Os requisitos mínimos do projeto são: Deve conter no mínimo 3 páginas, 1 principal (index) que você utilizará carrossel, modals e mais um componente de sua escolha, 1 de contato que você deve colocar informações sobre o seu site, equipe e usar formulários para apenas pegar as informações do usuário, não esqueça de utilizar as propriedades placeholder e required quando necessário, e por fim 1 página de mídia, ao qual você pode personalizar do seu jeito, mas deve ter pelo menos 1 video e 6 imagens de acordo com o seu tema escolhido. Em relação ao CSS é obrigatório que usem Flexbox, Containers e Grid System nas suas páginas
+Na segunda semana do curso na Digital House Brasil em parceiria com o Santander univerdade, o desafio foi construir um site com alguns critérios.
+
+- Utilizar Flexbox, Containers e Grid System.
+- Conceito mobile first
+- Ser responsivo
+- Possuir 3 páginas( Inicio, Contato e Sobre)
+- Utilizar carrosel
+- No contato, utilizar formulário
+- No sobre, adicionar ao menos 1 vídeo e imagens
+
+
+![n1](https://user-images.githubusercontent.com/5350571/88495853-9aa60300-cf91-11ea-99a1-89cb6845e6cb.png)
+![n2](https://user-images.githubusercontent.com/5350571/88495858-9c6fc680-cf91-11ea-8a52-89ab530c7b37.png)
