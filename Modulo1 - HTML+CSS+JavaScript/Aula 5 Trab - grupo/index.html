@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donkey Kode</title>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="shortcut icon" href="assets/img/monitor.svg" />
+</head>
+
+<body>
+    <!--Menu de navegação do site-->
+    <!--Incluir de volta: navbar-dark bg-dark-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/codigo.png" width="50" height="50" alt="Donkey Kode Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Página inicial <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./midia.html">Mídia</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--O conteúdo principal do site vai aqui-->
+    <main role="main" class="flex-shrink-0">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>Cultura digital</h1>
+                            <div class="mx-auto">
+                                <img width="45" height="45" src="assets/img/monitor.svg" />
+                            </div>
+                            <p>
+                                Com um mundo cada vez mais digital e globalizado, é muito importante que sua empresa
+                                também faça parte dele. Venha fazer parte desse mundo com a gente, nossa empresa
+                                possui os melhores contultores e desenvolvedores capacitados para tornar seu negório
+                                digital.
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#aboutUs" role="button">Saiba mais</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="carousel-caption text-right">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <section id="aboutUs">
+            <div class="container">
+                <h1 class="mt-5">Sobre a Donkey Kode</h1>
+                <p class="lead">
+                    <!--
+                    Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
+                    CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the
+                    <code>main &gt; .container</code>.</p>
+                    -->
+                    Somos uma empresa reconhecida que atua no ramo de desenvolvimento de aplicações Web e Mobile desde
+                    2020.
+                    Somos a principal referência nacional se tratando de tecnologias Web e Mobile. Marque uma
+                    consultoria
+                    conosco ou venha fazer parte do nosso time.
+                <p>Entre em <a href="/docs/4.5/examples/sticky-footer/">contato</a> conosco para saber mais detalhes.
+                </p>
+            </div>
+        </section>
+
+        <section class="marketing" id="techs">
+            <div class="container">
+                <h2>Sobre nossa Stack de tecnologia</h2>
+                <p class="lead">Um pouco sobre as tecnologias empregadas na nossa Stack de desenvolvimento.</p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="assets/img/angular.svg" width="140" height="140" alt="angular">
+                        <h2>Angular</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                            ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                            Praesent commodo cursus magna.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="assets/img/spring.svg" width="140" height="140" alt="spring">
+                        <h2>Spring boot</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                            ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                            Praesent commodo cursus magna.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                            role="img" aria-label="Placeholder: 140x140">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                dy=".3em">140x140</text>
+                        </svg>
+                        <h2>Heading</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                            ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                            Praesent commodo cursus magna.</p>
+                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer mt-auto py-3 navbar fixed-bottom">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+    <script src="lib/jquery/js/jquery-3.5.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
