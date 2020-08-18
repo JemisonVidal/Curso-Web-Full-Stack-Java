@@ -28,8 +28,8 @@ Em seguida, criar as seguintes classes e fazer com que cada uma implement a inte
  Em seguida, criar dois métodos na classe TorreDeControle: 
 
 ●  public void voemTodos(). Esse método será encarregado de percorrer a
- lista de voadores e fazer com que eles voem.
- Além disso, a sua classe deve ter um array de Voador, chamado voadores, que deve ser recebido no construtor.
+ lista de voadores e fazer com que eles voem. Além disso, a sua classe deve ter um array de Voador, chamado voadores, que deve ser recebido no construtor.
+ 
  Criar na classe Main:   
  ● um pato  
  ● um avião  
